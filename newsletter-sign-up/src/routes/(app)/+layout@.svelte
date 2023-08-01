@@ -3,11 +3,11 @@
 </script>
 
 <header />
-<main class="font-['Roboto']">
+<main class="font-['Roboto'] h-[74vh]">
 	<slot />
 </main>
 <footer>
-	<div class="attribution">
+	<div class="attribution mt-5">
 		Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
 			>Frontend Mentor</a
 		>. Coded by <a href="#">Celia hsu</a>.
