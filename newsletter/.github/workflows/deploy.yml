@@ -38,7 +38,10 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # this should match the `pages` option in your adapter-static options
-          path: 'build/'
+          path: 'newsletter/build/'
+
+      - name: Clear npm cache
+        run: npm cache clean --force
 
   deploy:
     needs: build_site
